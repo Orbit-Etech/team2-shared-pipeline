@@ -2,7 +2,7 @@ def call(String repoUrl){
   pipeline {
        agent any
        tools {
-           maven 'maven'
+           maven 'mymaven'
        }
        stages {
            stage("Tools initialization") {
